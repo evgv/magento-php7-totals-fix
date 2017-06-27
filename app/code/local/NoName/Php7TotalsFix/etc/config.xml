@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NoName_Pph7Totalsfix>
+            <version>1.0.0</version>
+        </NoName_Php7Totalsfix>
+    </modules>
+    <global>
+        <sales>
+            <quote>
+                <totals>
+                    <shipping>
+                        <class>sales/quote_address_total_shipping</class>
+                        <after>subtotal,freeshipping,tax_subtotal,msrp</after>
+                        <before>grand_total</before>
+                    </shipping>
+                    <msrp>
+                        <class>sales/quote_address_total_msrp</class>
+                        <before>grand_total</before>
+                    </msrp>
+                </totals>
+            </quote>
+        </sales>
+    </global>
+</config> 
