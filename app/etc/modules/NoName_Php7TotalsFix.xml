@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NoName_Php7Totalsfix>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends />
+        </NoName_Php7Totalsfix>
+    </modules>
+</config>
