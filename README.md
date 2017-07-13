@@ -1,5 +1,5 @@
 # magento-php7-totals-fix
-Small Magento 1.x.x extension that fixing totals bug(grand total not include discount)
+Small Magento 1.x extension that fixing totals bug(grand total not include discount)
 
 ### Features
 * Fix bug with totals
@@ -11,4 +11,4 @@ The following version have passed all tests:
 
 ### How to use
 
-Dwonload and install the extension(copy https://github.com/evgv/magento-php7-totals-fix/tree/master/app to ../app on server).
+Download and install the extension(copy https://github.com/evgv/magento-php7-totals-fix/tree/master/app to ../app on server).
